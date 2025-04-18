@@ -180,6 +180,45 @@ nav ul li:last-child {
   margin-top: 20px;
   margin-bottom: 50px;
 }
+video{
+width: 100%;
+position: relative;
+top: 0;
+left: 0;
+
+}
+.video-text{
+  position: relative;
+  bottom: 35rem;
+  left: 5rem;
+  width: 40%;
+  color: white;
+  span{
+    color: #ff6933;
+  }
+  h1{
+    font-size: 50px;
+    width: 60%;
+  }
+  p{
+    width: 75%;
+    line-height: 1.5;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    background-color: #ff6933;
+    padding: 20px 30px;
+    border-radius: 30px;
+    font-weight: bolder;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  a:hover{
+    background-color: #ff6933cb;
+  }
+  
+}
 
 @media only screen and (max-width:768px) {
   nav ul li{
