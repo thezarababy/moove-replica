@@ -290,6 +290,85 @@ font-size: 18px;
 
   }
 }
+.goals{
+  background-color: #2C2926;
+  height: 100vh;
+  padding: 100px 0;
+
+  
+  .goals-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+    gap: 50px;
+    text-align: center;
+    
+  }
+  h1{
+    font-size: 80px;
+    color: white;
+  }
+  h2{
+    color: white;
+  }
+  p{
+    color:#DDDDDD ;
+    line-height: 2;
+    margin-top: 20px;
+   font-size: 14px;
+  }
+}
+
+.heading{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.mockop{
+ 
+  width: 95%;
+
+  background-color: #ff6933;
+  margin-top: 15rem;
+  border-top-right-radius: 180px;
+  border-bottom-right-radius: 180px;
+  position: relative;
+
+}
+.mockop-container{
+  display: flex;
+  align-items: center;
+  height: 60vh;
+  
+ 
+  
+}
+.mockop-text{
+color: white;
+ 
+  margin-left: 5rem;
+  
+  h1{
+    font-size: 40px;
+  }
+  p{
+    width:50% ;
+  }
+  
+}
+.mockop-image img{
+ 
+ margin-top: -10px;
+ 
+
+}
+
+
+
+
+
 
 
 @media only screen and (max-width:768px) {
@@ -415,5 +494,53 @@ font-size: 18px;
       width: 50px;
     }
     
+  }
+  .goals{
+    height: 100%;
+    margin-top: 20px;
+    .goals-grid{
+      display: flex;
+      flex-direction: column;
+    }
+    p{
+      width:60%;
+      text-align: center;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+  .heading{
+    font-size: 25px;
+  }
+  .mockop{
+    margin-top: 0;
+    width: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    position: none;
+   
+    
+
+  }
+  .mockop-container{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+    max-width: 100%;
+  }
+  
+  .mockop-image img{
+    width: 300px;
+  }
+  .mockop-text{
+    width: 100%;
+    h1{
+      font-size: 30px;
+    }
+    p{
+      width: 95%;
+      padding-right: 15px;
+      line-height: 1.5;
+    }
   }
 }
